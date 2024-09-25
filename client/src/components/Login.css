@@ -1,0 +1,125 @@
+.login-page .errmsg {
+    display: block;
+}
+
+.login-page .offscreen {
+    display: none;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-page label {
+    text-align: left;
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+}
+
+.login-page input {
+    border: none;
+    border-bottom: 0.1vw solid var(--border-color);
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+    background-image: linear-gradient(135deg, var(--input-bg-primary-color), var(--input-bg-secondary-color));
+    transition: background-image 0.8s;
+}
+
+.login-page input:focus {
+    outline: none;
+    background-image: linear-gradient(135deg, var(--input-bg-primary-focus-color), var(--input-bg-secondary-focus-color));
+}
+
+.login-page .hide {
+    display: none;
+}
+
+.login-page .valid {
+    color: var(--valid-icon-color);
+    margin-left: 0.3vw;
+}
+
+.login-page .invalid {
+    color: var(--invalid-icon-color);
+    margin-left: 0.3vw;
+}
+
+.login-page .instructions {
+    font-size: 1vw;
+    margin: 0.3vw;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    align-self: flex-start;
+    text-align: left;
+    background-color: var(--additional-text-bg-color);
+}
+
+.login-page .instructions svg {
+    margin-right: 0.3vw;
+}
+
+.login-page .register-p {
+    margin-top: 1.5vw;
+}
+
+.login-page .errmsg {
+    font-size: 1vw;
+    margin: 0;
+    margin-bottom: 1.5vw;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    text-align: left;
+    background-color: var(--err-bg-color);
+}
+
+@media (max-width: 800px) {
+    
+    .login-page label {
+        text-align: left;
+        font-size: 2.4vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .login-page input {
+        border-bottom: 0.2vw solid var(--border-color);
+        font-size: 2.4vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .login-page .hide {
+        display: none;
+    }
+    
+    .login-page .valid {
+        margin-left: 0.6vw;
+    }
+    
+    .login-page .invalid {
+        margin-left: 0.6vw;
+    }
+    
+    .login-page .instructions {
+        font-size: 2vw;
+        margin: 0.6vw;
+        padding: 0.6vw;
+        border-radius: 1vw;
+    }
+    
+    .login-page .instructions svg {
+        margin-right: 0.6vw;
+    }
+    
+    .login-page .register-p {
+        margin-top: 3vw;
+    }
+    
+    .login-page .errmsg {
+        font-size: 2vw;
+        margin: 0;
+        margin-bottom: 3vw;
+        padding: 0.6vw;
+        border-radius: 1vw;
+    }
+}

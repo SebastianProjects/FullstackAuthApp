@@ -1,0 +1,17 @@
+.email-verify-page svg {
+    margin-left: 0.3vw;
+}
+
+.email-verify-page a {
+    margin-top: 1.5vw;
+}
+
+@media (max-width: 800px) {
+    .email-verify-page svg {
+        margin-left: 0.6vw;
+    }
+    
+    .email-verify-page a {
+        margin-top: 3vw;
+    }
+}

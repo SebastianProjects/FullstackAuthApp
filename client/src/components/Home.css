@@ -1,0 +1,41 @@
+.smaller {
+    font-size: 1.2vw;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.home-page a:first-of-type {
+    margin-top: 1.5vw;
+}
+
+.home-page a {
+    margin: 0.3vw 0;
+}
+
+.home-page a:last-of-type {
+    margin-bottom: 1.5vw;
+}
+
+@media (max-width: 800px) {
+    .smaller {
+        font-size: 2.4vw;
+    }
+    
+    .italics {
+        font-style: italic;
+    }
+    
+    .home-page a:first-of-type {
+        margin-top: 3vw;
+    }
+    
+    .home-page a {
+        margin: 0.6vw 0;
+    }
+    
+    .home-page a:last-of-type {
+        margin-bottom: 3vw;
+    }
+}

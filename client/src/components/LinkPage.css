@@ -1,0 +1,18 @@
+.link-page h1:last-of-type {
+    margin-top: 1.5vw;
+}
+
+.link-page a {
+    margin: 0.3vw 0;
+}
+
+@media (max-width: 800px) {
+    
+    .link-page h1:last-of-type {
+        margin-top: 3vw;
+    }
+    
+    .link-page a {
+        margin: 0.6vw 0;
+    }
+}

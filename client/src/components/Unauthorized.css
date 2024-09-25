@@ -1,0 +1,9 @@
+.unathourized-page button {
+    margin: 1.5vw 0 0 0;
+}
+
+@media (max-width: 800px) {
+    .unathourized-page button {
+        margin: 3vw 0 0 0;
+    }
+}

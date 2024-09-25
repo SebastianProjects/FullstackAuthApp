@@ -1,0 +1,131 @@
+.register-page .errmsg {
+    display: block;
+}
+
+.register-page .offscreen {
+    display: none;
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.register-page label {
+    text-align: left;
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+}
+
+.register-page input {
+    border: none;
+    border-bottom: 0.1vw solid var(--border-color);
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+    background-image: linear-gradient(135deg, var(--input-bg-primary-color), var(--input-bg-secondary-color));
+    transition: background-image 0.8s;
+}
+
+.register-page input:focus {
+    outline: none;
+    background-image: linear-gradient(135deg, var(--input-bg-primary-focus-color), var(--input-bg-secondary-focus-color));
+}
+
+.register-page button {
+    margin-bottom: 1.5vw;
+}
+
+.register-page .hide {
+    display: none;
+}
+
+.register-page .valid {
+    color: var(--valid-icon-color);
+    margin-left: 0.3vw;
+}
+
+.register-page .invalid {
+    color: var(--invalid-icon-color);
+    margin-left: 0.3vw;
+}
+
+.register-page .instructions {
+    width: max-content;
+    font-size: 1vw;
+    margin: 0.3vw 0;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    align-self: flex-start;
+    text-align: left;
+    background-color: var(--additional-text-bg-color);
+}
+
+.register-page .instructions svg {
+    margin-right: 0.3vw;
+}
+
+.register-page .register-p {
+    margin-top: 1.5vw;
+}
+
+.register-page .errmsg {
+    font-size: 1vw;
+    margin: 0;
+    margin-bottom: 1.5vw;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    text-align: left;
+    background-color: var(--err-bg-color);
+}
+
+@media (max-width: 800px) {
+    
+    .register-page label {
+        text-align: left;
+        font-size: 2.4vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .register-page input {
+        border: none;
+        border-bottom: 0.2vw solid var(--border-color);
+        font-size: 2.4vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .register-page button {
+        margin-bottom: 3vw;
+    }
+    
+    .register-page .valid {
+        margin-left: 0.6vw;
+    }
+    
+    .register-page .invalid {
+        margin-left: 0.6vw;
+    }
+    
+    .register-page .instructions {
+        font-size: 2vw;
+        margin: 0.6vw 0;
+        padding: 0.6vw;
+        border-radius: 1vw;
+    }
+    
+    .register-page .instructions svg {
+        margin-right: 0.6vw;
+    }
+    
+    .register-page .register-p {
+        margin-top: 3vw;
+    }
+    
+    .register-page .errmsg {
+        font-size: 2vw;
+        margin: 0;
+        margin-bottom: 3vw;
+        padding: 0.6vw;
+        border-radius: 1vw;
+    }
+}
